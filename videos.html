@@ -6,7 +6,7 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=MuseoModerno&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Oswald:wght@500&display=swap" rel="stylesheet">
 
 <link rel="icon" type="image/x-icon" href="PianoIcon.png">
 
@@ -21,6 +21,8 @@
 	width: 100%;
 	height: 10%;
 	background-color: #000000;
+    	display: inline;
+    	white-space: nowrap;
  }
 	
  #TitleHeader {
@@ -34,8 +36,6 @@
     	margin: auto;
     	width: 40%;
     	text-align: center;
-	
-
 }
 
  body {
@@ -62,22 +62,27 @@
 
  
  h1 {
- 	font-family: 'MuseoModerno', cursive;
+ 	font-family: 'Oswald', sans-serif;
    	font-size: 40px;
    	text-align: center;
         
 }
 
  h2 {
-	font-family: 'MuseoModerno', cursive;
+	font-family: 'Oswald', sans-sarif;
 	font-size: 30px;
 	text-align: center;
     
 }
 
+ h3 {
+	font-family: 'Oswald', sans-sarif;
+	font-size: 150%;
+}
+	
  p {
 	text-indent: 10%;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-sarif;
     text-align: left;
     font-size: 120%;
     padding: 5%;
@@ -93,8 +98,13 @@
 
 </head>
 <body>
-<div id="MenuBar"><a href="https://gabrielabberton.github.io/GabrielAbbertonMusic/" target="_self"><H3>Home</H3></a><a><H3>Videos</H3></a></div>
+<nav id="MenuBar">
+	<a href="https://gabrielabberton.github.io/GabrielAbbertonMusic/" target="_self"><H3 style="display: inline;">Home</H3></a>
+	<a href="videos.html"><H3 style="display: inline;">Videos</H3></a>
+</nav>
 <br>
+<br>
+<h1 id="TitleHeader">My Videos</h1>
 <br>
 <iframe id="vid" src="https://www.youtube.com/embed/PJp-BoBy5JI"></iframe>
 <br>
