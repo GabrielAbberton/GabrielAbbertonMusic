@@ -1,6 +1,6 @@
  #MenuBar {
 	position: fixed;
-	box-shadow: 0px 1px 5px 10px #000000;
+	box-shadow: 0px 5px 5px 5px #000000;
 	left: 0px;
 	top: 0px;
 	border-top: 1px solid #FFFFFF;
@@ -45,7 +45,7 @@ h3 {
     	text-align: center;
 	z-index: 2;
 	position: sticky;
-	top: %;
+	top: 3%;
 }
 
  body {
