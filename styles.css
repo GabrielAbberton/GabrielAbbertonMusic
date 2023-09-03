@@ -1,4 +1,3 @@
-
  #MenuBar {
 	position: fixed;
 	left: 0px;
@@ -12,6 +11,20 @@
 	z-index: 1;
     
  }
+
+.logoImg {
+	position: fixed;
+	top: 2.5%;
+	left: 2.5%;
+	width: 2.5%;
+	height: auto;
+}
+
+h3 {
+	position: fixed;
+	left: 7.5%;
+	top: 0%;
+}
  
  #navlink {
  	color: #ffffff;
@@ -51,7 +64,7 @@
  #textbox2 {
  	margin: auto;
 	width: 90%;
-    background-color: #e29ca4;
+    	background-color: #e29ca4;
    	border-radius: 10px;
 	box-shadow: 1px 1px 5px #e29ca4;
     
@@ -84,10 +97,10 @@
 	
  p {
 	text-indent: 10%;
-    font-family: 'Josefin Sans', sans-sarif;
-    text-align: left;
-    font-size: 120%;
-    padding: 5%;
+    	font-family: 'Josefin Sans', sans-sarif;
+    	text-align: left;
+    	font-size: 120%;
+    	padding: 5%;
 }
  
  #vid {
