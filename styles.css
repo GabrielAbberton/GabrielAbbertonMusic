@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2family=Josefin+Slab:wght@500&family=Oswald:wght@500&display=swap');
 
-
 #MenuBar {
 	position: fixed;
 	box-shadow: 0px 5px 10px 5px #000000;
@@ -9,13 +8,22 @@
 	border-top: 1px solid #FFFFFF;
 	width: 100%;
 	height: 10%;
-	background-color: #e29ca4;
+	background-color: #7d64f2;
     	display: inline;
    	white-space: nowrap;
    	color: #ffffff;
 	z-index: 1;
+	transition: background-color 1s;
     
  }
+ 
+ #MenuBar:hover {
+  background-color: #D93D90;
+	transition: background-color 1s;
+    
+ }
+ 
+ 
 
 #logoImg {
 	position: fixed;
@@ -33,6 +41,12 @@ h3 {
  
  #navlink {
  	color: #ffffff;
+ 	transition: color 0.5s;
+}
+
+ #navlink:hover {
+ 	color: #Baadff;
+ 	transition: color 0.5s;
 }
 	
  #TitleHeader {
@@ -52,7 +66,7 @@ h3 {
 }
 
  body {
-	background-image: url("Screenshot 2023-05-25 170950.png");
+	background-image: url("https://github.com/GabrielAbberton/GabrielAbbertonMusic/blob/main/Screenshot%202023-05-25%20170950.png?raw=true");
 	background-attachment: fixed;
  }
 	
@@ -60,18 +74,18 @@ h3 {
  	margin: auto;
 	width: 35%;
     	padding: 5px;
-    	background-color: #e29ca4;
+    	background-color: #7d64f2;
     	border-radius: 10px;
-	box-shadow: 1px 1px 5px #e29ca4;
+	box-shadow: 1px 1px 5px #7d64f2;
 	max-width: 25%;
 }
 
  #textbox2 {
  	margin: auto;
 	width: 90%;
-    	background-color: #e29ca4;
+    	background-color: #7d64f2;
    	border-radius: 10px;
-	box-shadow: 1px 1px 5px #e29ca4;
+	box-shadow: 1px 1px 5px #7d64f2;
     
 }
 
