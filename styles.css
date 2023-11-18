@@ -1,4 +1,7 @@
- #MenuBar {
+@import url('https://fonts.googleapis.com/css2family=Josefin+Slab:wght@500&family=Oswald:wght@500&display=swap');
+
+
+#MenuBar {
 	position: fixed;
 	box-shadow: 0px 5px 10px 5px #000000;
 	left: 0px;
@@ -81,14 +84,14 @@ h3 {
 }
 
  h2 {
-	font-family: 'Oswald', sans-sarif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 30px;
 	text-align: center;
     
 }
 
  h3 {
-	font-family: 'Oswald', sans-sarif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 150%;
     
 }
@@ -99,7 +102,7 @@ h3 {
 	
  p {
 	text-indent: 10%;
-    	font-family: 'Josefin Sans', sans-sarif;
+    	font-family: 'Josefin Slab', serif;
     	text-align: left;
     	font-size: 120%;
     	padding: 5%;
